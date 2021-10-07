@@ -34,7 +34,7 @@ nav img{
     color:#fff;
     text-decoration: none;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; /*Google font*/
 }
 .nav-links ul li a::after{
     content: '';
@@ -44,6 +44,7 @@ nav img{
     display: block;
     margin:auto;
 }
-.nav-links ul li:hover ::after{
+.nav-links ul li:hover ::after{ /*when you hover over nav links, red underline widens*/
     width: 100%;
 }
+/*End of nav bar style by Maryia Oct 6*/

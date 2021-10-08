@@ -41,7 +41,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: gold;
     display: block;
     margin:auto;
 }
@@ -55,15 +55,25 @@ nav img{
     font-family: 'Montserrat', sans-serif; /*Google font*/
     color: #fff;
     font-size: 35px;
-    padding-top: 70px;
+    
+    padding: 25px;
 }
-
-
+/*Styling for carousel*/
 .carousel{
     width: 40%;
- margin: auto;;
-    
+    margin: auto;;
     font-family: 'Montserrat', sans-serif; /*Google font*/
-    border: black solid 3px;
 }
+
+.carousel-item:before { /*Code found on https://www.codeply.com/go/HTKVcweqHB/bootstrap-carousel-with-inset-shadow to create shadow*/
+    -webkit-box-shadow: inset 0 0 20rem rgba(0, 0, 0, 1);
+    box-shadow: inset 0 0 20rem rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
 

@@ -9,10 +9,10 @@ h1{
 .greece{
     width: 500px;
 }
-.content{
-    margin: 20px;
-    
-}
-.rules{
+
+.boxes{
     display: flex;
+    border-top: gray solid 2px;
+    margin: 100px;
 }
+

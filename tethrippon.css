@@ -1,0 +1,35 @@
+/* Weiguang Yang Tethrippon page style*/
+
+
+.T_heading1{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-emphasis:inherit;
+}
+.T_text_left{
+    float: left;
+    text-align: left;
+    width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-size-adjust:inherit
+}
+.T_text_right{
+    float: right;
+    text-align: left;
+    width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-size-adjust:inherit
+}
+.T_img_left{
+    float: left;
+    width: 20%;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+section{
+    width: 100%;
+}

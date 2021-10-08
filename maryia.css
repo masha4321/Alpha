@@ -15,4 +15,10 @@ h1{
     border-top: gray solid 2px;
     margin: 100px;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    line-height: 30px;
+}
 

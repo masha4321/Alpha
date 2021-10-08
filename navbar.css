@@ -1,0 +1,69 @@
+/*Styling for nav bar*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background_image.jpg); /*Creates shade effect on background*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: .5% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 80px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    padding: 25px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif; /*Google font*/
+}
+.nav-links ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+}
+.nav-links ul li:hover ::after{ /*when you hover over nav links, red underline widens*/
+    width: 100%;
+}
+/*End of nav bar style*/
+
+.introduction{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /*Google font*/
+    color: #fff;
+    font-size: 35px;
+    padding-top: 70px;
+}
+
+
+.carousel{
+    width: 40%;
+ margin: auto;;
+    
+    font-family: 'Montserrat', sans-serif; /*Google font*/
+    border: black solid 3px;
+}
+

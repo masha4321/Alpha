@@ -1,4 +1,4 @@
-/*Styling for nav bar by Maryia Oct 6 */
+/*Styling for nav bar*/
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 80px;
 }
 .nav-links{
     flex: 1;
@@ -47,4 +47,12 @@ nav img{
 .nav-links ul li:hover ::after{ /*when you hover over nav links, red underline widens*/
     width: 100%;
 }
-/*End of nav bar style by Maryia Oct 6*/
+/*End of nav bar style*/
+
+.introduction{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /*Google font*/
+    color: #fff;
+    font-size: 35px;
+    padding-top: 100px;
+}

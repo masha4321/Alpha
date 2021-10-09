@@ -40,7 +40,7 @@ nav img{
     color:#fff;
     text-decoration: none;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif; /*Google font*/
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -67,7 +67,7 @@ nav img{
 
 .introduction{
     text-align: center;
-    font-family: 'Montserrat', sans-serif; /*Google font*/
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     font-size: 35px;
     
@@ -77,7 +77,7 @@ nav img{
 .carousel{
     width: 40%;
     margin: auto;;
-    font-family: 'Montserrat', sans-serif; /*Google font*/
+    font-family: 'Montserrat', sans-serif;
 }
 
 .carousel-item:before { /*Code found on https://www.codeply.com/go/HTKVcweqHB/bootstrap-carousel-with-inset-shadow to create shadow*/
@@ -94,7 +94,7 @@ nav img{
     text-align: center;
     background-color: rgb(64, 51, 50);
     color: white;
-    font-family: 'Montserrat', sans-serif; /*Google font*/
+    font-family: 'Montserrat', sans-serif;
     font-size: 15pt;
     margin: auto;
   }

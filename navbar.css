@@ -16,6 +16,8 @@ nav{
     padding: .5% 3%;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 nav img{
     width: 80px;
@@ -24,29 +26,42 @@ nav img{
     flex: 1;
     text-align: right;
     padding: 25px;
+    
 }
+
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    
 }
 .nav-links ul li a{
     color:#fff;
     text-decoration: none;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif; /*Google font*/
+    
 }
+
+.nav-links ul li a:hover{
+    color: darkolivegreen;
+    
+}
+
+
 .nav-links ul li a::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: gold;
+    background: black;
     display: block;
     margin:auto;
+    
 }
 .nav-links ul li:hover ::after{ /*when you hover over nav links, red underline widens*/
     width: 100%;
+    
 }
 /*End of nav bar style*/
 
@@ -75,5 +90,29 @@ nav img{
     height: 100%;
     content: "";
 }
-
-
+.footer {
+    text-align: center;
+    background-color: rgb(64, 51, 50);
+    color: white;
+    font-family: 'Montserrat', sans-serif; /*Google font*/
+    font-size: 15pt;
+    margin: auto;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .content {
+    min-height: 100%;
+  }
+  .content-inside {
+    padding-bottom: 50px;
+  }
+  .footer {
+    height: 75px;
+    margin-top: -50px;
+  }
+ .orange{
+     padding-top: 20px;
+     
+ }

@@ -1,13 +1,37 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+}
+em {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
 .container {
   display: flex;
   margin: 50px;
+  float: right;
 }
 hr {
   color: black;
   border-style: dashed;
-  margin-top: 10px;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  width: 75%;
+  /*margin-top: 10px;*/
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   border-width: 3px;
+}
+.pic {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  border: 3px solid darksalmon;
+}
+p {
+  line-height: 30px;
+  padding: 10px;
+  font-weight: bold;
 }

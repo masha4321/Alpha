@@ -5,6 +5,14 @@ body {
 em {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
@@ -13,6 +21,7 @@ h2 {
 .container {
   display: flex;
   margin: 50px;
+  margin-top: 10px;
   float: right;
 }
 hr {

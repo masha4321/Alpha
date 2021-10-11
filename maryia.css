@@ -23,6 +23,7 @@ body{
 p{
     line-height: 30px;
     padding:10px;
+    font-weight: bold;
 }
 h2{
     padding:10px;

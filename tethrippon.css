@@ -34,5 +34,8 @@ section{
 
 }
 .T_break{
-
+    clear: all;
+}
+.T_break_line{
+    text-align: center;margin-left: 80px;width: 80%;height: 10px;
 }

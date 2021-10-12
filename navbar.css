@@ -91,6 +91,8 @@ nav img{
     font-family: 'Montserrat', sans-serif;
     font-size: 15pt;
     margin: auto;
+    height: 75px;
+    margin-top: -50px;
   }
   html, body {
     height: 100%;
@@ -102,10 +104,7 @@ nav img{
   .content-inside {
     padding-bottom: 50px;
   }
-  .footer {
-    height: 75px;
-    margin-top: -50px;
-  }
+ 
  .orange{
      padding-top: 20px;
      

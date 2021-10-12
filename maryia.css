@@ -1,21 +1,21 @@
-h2,h3, h4{
+h1,h2,h3, h4{
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
 }
 h1{
-    padding:7px;
+    padding:10px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .greece{
-    
+    width: 500px;
 }
 
 .boxes{
     display: flex;
-    border-top: grey 2px solid;
-    margin: 20px;
+    border-top: gray solid 2px;
+    margin: 100px;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -28,4 +28,3 @@ p{
 h2{
     padding:10px;
 }
-

@@ -7,11 +7,6 @@ h1{
     text-align: center;
     margin-top: 25px;
 }
-
-.greece{
-    width: 500px;
-}
-
 .boxes{
     display: flex;
     border-top: gray solid 2px;
@@ -27,4 +22,7 @@ p{
 }
 h2{
     padding:10px;
+}
+.content{
+    background-color: antiquewhite;
 }

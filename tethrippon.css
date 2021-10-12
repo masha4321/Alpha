@@ -12,12 +12,12 @@
     text-align: left;
     width: 60%;
     line-height: 30px;
+    font-weight: bold;
 }
 .T_body{
-    font-family: "Montserrat", sans-serif;
+    font-family:"Montserrat", sans-serif;
     width: 100%;
     background-color: antiquewhite;
-    color: black;
 }
 .T_img_left{
     float:left;
@@ -32,10 +32,13 @@ section{
 
 }
 .T_break{
-    clear: all;
+    clear: both;
 }
 .T_break_line{
-    text-align: center;margin-left: 80px;width: 80%;height: 10px;
+    text-align: center;
+    margin-left: 80px;
+    width: 80%;
+    height: 10px;
 }
 
 .sidebar {
@@ -57,5 +60,17 @@ section{
     border-color: chartreuse;
   }
 
+  .T_footer {
+    text-align: center;
+    background-color: rgb(64, 51, 50);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    height: 75px;
+    margin: auto;
+  }  
   
+  .T_orange{
+    padding-top: 20px;
+    }
   

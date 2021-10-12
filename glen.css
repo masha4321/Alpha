@@ -1,21 +1,42 @@
-h1,h2{
-    font-family: 'Montserrat', sans-serif;
+body {
+    background-color: antiquewhite;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h2{
     font-size: 35px;
 }
 
-h3, h4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+h3{
+    font: 25px;
 }
 
-h1{
-    padding:10px;
-    text-align: center;
-    margin-top: 25px;
+.history{
+    border-top: gray solid 2px;
+    text-align: left;
+    margin-bottom: 35px;
+   
 }
 
+.rules{
+    border-top: gray solid 2px;
+    margin: 20px;
+}
+
+p{
+    width: 90%;
+    line-height: 30px;
+}
 
 
 .img_left{
-float: left;
+    float: left;
+    margin: 35px;
+    text-align: left;
 }

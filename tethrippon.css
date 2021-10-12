@@ -60,5 +60,17 @@ section{
     border-color: chartreuse;
   }
 
+  .T_footer {
+    text-align: center;
+    background-color: rgb(64, 51, 50);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    height: 75px;
+    margin: auto;
+  }  
   
+  .T_orange{
+    padding-top: 20px;
+    }
   

@@ -7,26 +7,25 @@ body {
 h1{
     text-align: center;
     margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 h2{
     font-size: 35px;
+    margin-left: 35px;
 }
 
 h3{
     font: 25px;
+    margin-top: 35px;
+    text-decoration: underline;
 }
 
-.history{
+.box{
     border-top: gray solid 2px;
     text-align: left;
     margin-bottom: 35px;
    
-}
-
-.rules{
-    border-top: gray solid 2px;
-    margin: 20px;
 }
 
 p{
@@ -39,4 +38,7 @@ p{
     float: left;
     margin: 35px;
     text-align: left;
+    width: 250px;
+    height: 250px;
+    border: 3px solid darksalmon;
 }
